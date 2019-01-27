@@ -11,6 +11,8 @@ require 'pry'
 def get_the_values(groceries)
   list = []
   groceries.each do |grocery_type, data|
-    
+    data.each do ||
+      
+    end 
   end
 end
