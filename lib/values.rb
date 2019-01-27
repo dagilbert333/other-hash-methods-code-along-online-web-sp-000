@@ -17,4 +17,5 @@ def get_the_values(groceries)
       end
     end 
   end
+  list
 end
