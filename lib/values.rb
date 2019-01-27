@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   
   groceries.each do |grocery_type, data|
-    data.each do |value, attribute|
+    data.each do |value|
       binding.pry
     end 
   end
