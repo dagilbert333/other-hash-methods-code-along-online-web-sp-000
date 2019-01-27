@@ -12,9 +12,7 @@ def get_the_values(groceries)
   list = []
   groceries.each do |grocery_type, data|
     data.each do |attribute, value|
-      value.each do |item|
-        puts item
-      end
+      attribute.values
     end 
   end
 end
